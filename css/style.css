@@ -1,0 +1,114 @@
+/* <-----------------------HEADER---------------------------------------> */
+.header {					/*общий стиль хидер*/
+	position: relative;
+	height: 920px;
+	width: 100%;
+	background: linear-gradient(to top, #b478b6, #f0689e );
+	background-image: url(../img/BG-Image1.jpg);
+}
+.text_logo {   /*стиль текстового логотипа*/
+	position: absolute;
+	float: left;
+	left: 60px;
+	font-size: 25px;
+	text-transform: uppercase;
+	color: #fff;
+}
+.nav {			/*стиль для блока навигации*/
+	position: absolute;
+	right: 60px;
+	text-align: center;
+}
+.nav > a {		/*стиль для ссылок блока навигации*/
+	display: inline-block;
+	margin: 10px;
+	text-decoration: none;
+	font-size: 12px;
+	text-transform: uppercase;
+	color: #fff;
+}
+.title_text {  /*стиль первого текстового блока*/
+	position: absolute;
+	top: 275px;
+	left: 580px;
+	font-size: 45px;
+	color: #fff;
+}
+.title_text2 {	/*стиль второго текстового блока*/
+	position: absolute;
+	position: absolute;
+	top: 350px;
+	left: 670px;
+	font-size: 20px;
+	color: #fff;
+}
+.bth_subscribe {		/*стиль для кнопки подписки*/
+	position: absolute;
+	top: 400px;
+	left: 820px;
+	height: 60px;
+	width: 276px;
+	background-color: #fed45c;
+	border-radius: 30px 30px 30px 30px;
+}
+.bth_subscribe > a {	/*стиль ссылки кнопки*/
+	display: block;
+	height: 60px;
+	width: 100%;
+	text-decoration: none;
+	font-size: 14px;
+	text-transform: uppercase;
+	line-height: 60px;
+	text-align: center;
+	color: #000;
+}
+.box_comment {				/*контейнер для отзыва*/
+	position: absolute;
+	top: 440px;
+	left: 342px;
+	height: 78px;
+	width: 220px;
+	background-image: url(../img/comment.png);
+	text-align: center;
+	color: #444444;
+}
+
+
+.section_main {
+	position: relative;
+	height: 1330px;
+	width: 100%;
+	background-color: #fff;
+}
+.section_statistics {
+	position: relative;
+	height: 419px;
+	width: 100%;
+	background: linear-gradient(to top, #b478b6, #f0689e );
+	background-image: url(../img/BG_img2_02.jpg);
+}
+.section_products {
+	position: relative;
+	height: 730px;
+	width: 100%;
+	background-color: #fff;
+}
+.section_news {
+	position: relative;
+	height: 900px;
+	width: 100%;
+	background-color: #f6f6f6;
+}
+.section_support {
+	position: relative;
+	height: 570px;
+	width: 100%;
+	background-color: #fff;
+}
+.footer {
+	position: relative;
+	height: 287px;
+	width: 100%;
+	background: #303d59;
+	background-image: url(../img/BG-Shapes_02.jpg);
+}
