@@ -1,4 +1,4 @@
-/* <-----------------------HEADER---------------------------------------> */
+/* <----------------------------------------------HEADER---------------------------------------> */
 .header {					/*общий стиль хидер*/
 	position: relative;
 	height: 920px;
@@ -72,14 +72,166 @@
 	text-align: center;
 	color: #444444;
 }
+.logo_box_1 {				/*1 контейнер для логотипов*/ 
+	position: absolute;
+	left: 475px;
+	top: 860px;
+	height: 145px;
+	width: 150px;
+	background: #fff;
+	border: 1px black solid;
+	z-index: 1;
+}
+.logo_box_2 {				/*2 контейнер для логотипов*/
+	position: absolute;
+	left: 675px;
+	top: 860px;
+	height: 145px;
+	width: 150px;
+	background: #fff;
+	border: 1px black solid;
+	z-index: 1;
+}
+.logo_box_3 {				/*3 контейнер для логотипов*/
+	position: absolute;
+	right: 865px;
+	top: 860px;
+	height: 145px;
+	width: 150px;
+	background: #fff;
+	border: 1px black solid;
+	z-index: 1;
+}
+.logo_box_4 {				/*4 контейнер для логотипов*/
+	position: absolute;
+	right: 675px;
+	top: 860px;
+	height: 145px;
+	width: 150px;
+	background: #fff;
+	border: 1px black solid;
+	z-index: 1;
+}
+.logo_box_5 {				/*5 контейнер для логотипов*/
+	position: absolute;
+	right: 475px;
+	top: 860px;
+	height: 145px;
+	width: 150px;
+	background: #fff;
+	border: 1px black solid;
+	z-index: 1;
+}
+.logo_box_1 > a {				/*растяжение ссылки по величине контейнера для логотипа*/
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.logo_box_2 > a {				/*растяжение ссылки по величине контейнера для логотипа*/
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.logo_box_3 > a {				/*растяжение ссылки по величине контейнера для логотипа*/
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.logo_box_4 > a {				/*растяжение ссылки по величине контейнера для логотипа*/
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.logo_box_5 > a {				/*растяжение ссылки по величине контейнера для логотипа*/
+	display: block;
+	width: 100%;
+	height: 100%;
+}
 
-
+/* <--------------------------------------SECTION MAIN---------------------------------------> */
 .section_main {
-	position: relative;
-	height: 1330px;
+	height: 966px;
 	width: 100%;
 	background-color: #fff;
 }
+.main_box {
+	margin-top: 250px;
+	margin-left: 370px;
+	width: 60%;
+	height: 700px;
+	border: 1px black solid;
+}
+.box_left {
+	width: 60%;
+	height: 295px;
+	float: left;
+	border: 1px black solid;
+}
+.box_right {
+	width: 39%;
+	height: 295px;
+	float: right;
+	border: 1px black solid;
+}
+.box_bot {
+	float: left;
+	width: 70%;
+	height: 250px;
+	margin-top: 8%;
+	margin-left: 15%;
+	border: 1px black solid;
+}
+/* <--------------------------------------SECTION INFO---------------------------------------> */
+
+.section_info {
+	height: 365px;
+	width: 100%;
+	background-color: #fcfcfc;
+	border: 1px black solid;
+}
+.conteiner_info {
+	height: 270px;
+	width: 55%;
+	margin-left: 22%;
+	margin-top: 2%;
+	border: 1px black solid;
+}
+.info_box_1, 
+.info_box_2, 
+.info_box_3  {
+	height: 180px;
+	width: 30%;
+	float: left;
+	margin-top: 4%;
+	margin-left: 2%;
+	border: 1px black solid; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .section_statistics {
 	position: relative;
 	height: 419px;
