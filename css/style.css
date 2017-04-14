@@ -206,32 +206,7 @@
 	margin-left: 2%;
 	border: 1px black solid; 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* <--------------------------------------SECTION STATISTIC---------------------------------------> */
 .section_statistics {
 	position: relative;
 	height: 419px;
@@ -239,28 +214,102 @@
 	background: linear-gradient(to top, #b478b6, #f0689e );
 	background-image: url(../img/BG_img2_02.jpg);
 }
+.statistic_text_box {
+	position: absolute;
+	height: 150px;
+	width: 15%;
+	margin-left: 55%;
+	margin-top: 7%;
+	border: 1px black solid;
+}
+/* <--------------------------------------SECTION PRODUCTS---------------------------------------> */
 .section_products {
 	position: relative;
 	height: 730px;
 	width: 100%;
 	background-color: #fff;
 }
+
+.products_box_left {
+	display: inline-block;
+	height: 370px;
+	width: 25%;
+	border: 1px black solid;
+	margin-left: 20%;
+	margin-top: 15%;
+}
+.products_box_right {
+	display: inline-block;
+	height: 370px;
+	width: 25%;
+	border: 1px red solid;
+	margin-top: 15%;
+}
+/* <--------------------------------------SECTION NEWS---------------------------------------> */
 .section_news {
 	position: relative;
 	height: 900px;
 	width: 100%;
 	background-color: #f6f6f6;
 }
+.news_box_left {
+	float: left;
+	height: 520px;
+	width: 15% ;
+	border: 1px black solid;
+	margin-left: 20%;
+	margin-top: 5%;
+
+}
+.news_box_right {
+	float: left;
+	height: 630px;
+	width: 35% ;
+	border: 1px black solid;
+	margin-left: 5%;
+	margin-top: 5%;
+}
+
+/* <--------------------------------------SECTION SUPPORT---------------------------------------> */
 .section_support {
 	position: relative;
 	height: 570px;
 	width: 100%;
 	background-color: #fff;
 }
+.conteiner_support {
+	height: 270px;
+	width: 55%;
+	margin-left: 22%;
+	margin-top: 2%;
+	border: 1px black solid;
+}
+.support_box_1, 
+.support_box_2, 
+.support_box_3 {
+	height: 180px;
+	width: 30%;
+	float: left;
+	margin-top: 4%;
+	margin-left: 2%;
+	border: 1px black solid; 
+}
+
+
+
+/* <--------------------------------------FOOTER---------------------------------------> */
 .footer {
 	position: relative;
 	height: 287px;
 	width: 100%;
 	background: #303d59;
 	background-image: url(../img/BG-Shapes_02.jpg);
+}
+.socials_box {
+	position: absolute;
+	height: 20px;
+	width: 5%;
+	border: 1px black solid;
+	margin-top: 4%;
+	margin-left: 45%;
 }
