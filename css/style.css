@@ -149,18 +149,12 @@
 }
 
 /* <--------------------------------------SECTION MAIN---------------------------------------> */
-.section_main {
+.main {
 	height: 966px;
 	width: 100%;
 	background-color: #fff;
 }
-.main_box {
-	margin-top: 250px;
-	margin-left: 370px;
-	width: 60%;
-	height: 700px;
-	border: 1px black solid;
-}
+
 .box_left {
 	width: 60%;
 	height: 295px;
@@ -182,18 +176,10 @@
 	border: 1px black solid;
 }
 /* <--------------------------------------SECTION INFO---------------------------------------> */
-
-.section_info {
+.info {
 	height: 365px;
 	width: 100%;
 	background-color: #fcfcfc;
-	border: 1px black solid;
-}
-.conteiner_info {
-	height: 270px;
-	width: 55%;
-	margin-left: 22%;
-	margin-top: 2%;
 	border: 1px black solid;
 }
 .info_box_1, 
@@ -207,7 +193,7 @@
 	border: 1px black solid; 
 }
 /* <--------------------------------------SECTION STATISTIC---------------------------------------> */
-.section_statistics {
+.statistics {
 	position: relative;
 	height: 419px;
 	width: 100%;
@@ -223,7 +209,7 @@
 	border: 1px black solid;
 }
 /* <--------------------------------------SECTION PRODUCTS---------------------------------------> */
-.section_products {
+.products {
 	position: relative;
 	height: 730px;
 	width: 100%;
@@ -246,7 +232,7 @@
 	margin-top: 15%;
 }
 /* <--------------------------------------SECTION NEWS---------------------------------------> */
-.section_news {
+.news {
 	position: relative;
 	height: 900px;
 	width: 100%;
@@ -271,19 +257,13 @@
 }
 
 /* <--------------------------------------SECTION SUPPORT---------------------------------------> */
-.section_support {
+.support {
 	position: relative;
 	height: 570px;
 	width: 100%;
 	background-color: #fff;
 }
-.conteiner_support {
-	height: 270px;
-	width: 55%;
-	margin-left: 22%;
-	margin-top: 2%;
-	border: 1px black solid;
-}
+
 .support_box_1, 
 .support_box_2, 
 .support_box_3 {
@@ -308,8 +288,7 @@
 .socials_box {
 	position: absolute;
 	height: 20px;
-	width: 5%;
-	border: 1px black solid;
+	width: 15%;
 	margin-top: 4%;
 	margin-left: 45%;
 }
