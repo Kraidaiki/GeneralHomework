@@ -154,26 +154,51 @@
 	width: 100%;
 	background-color: #fff;
 }
-
 .box_left {
-	width: 60%;
+	width: 32%;
 	height: 295px;
 	float: left;
-	border: 1px black solid;
+	margin-left: 15%;
+	margin-top: 10%;
+	border: 1px red solid;
 }
 .box_right {
-	width: 39%;
+	width: 38%;
 	height: 295px;
-	float: right;
-	border: 1px black solid;
+	float: left;
+	margin-top: 10%;
+	border: 1px green solid;
+	background: #d0d0d0;
 }
 .box_bot {
 	float: left;
-	width: 70%;
+	width: 40%;
 	height: 250px;
-	margin-top: 8%;
-	margin-left: 15%;
+	margin-left: 30%;
+	margin-top: 5%;
 	border: 1px black solid;
+}
+.box_left_text_1 {
+	color: #777777;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+.box_left_text_2 {
+	font-size: 35px;
+}
+.box_left_text_3 {
+	color: #777777;
+	font-size: 18px;
+}
+.box_left_text_4 {
+	color: #777777;
+	font-size: 14px;
+}
+.btn_main {
+	height: 50px;
+	width: 30%;
+	background: #fed45c;
+	border-radius: 25px;
 }
 /* <--------------------------------------SECTION INFO---------------------------------------> */
 .info {
@@ -192,6 +217,7 @@
 	margin-left: 2%;
 	border: 1px black solid; 
 }
+
 /* <--------------------------------------SECTION STATISTIC---------------------------------------> */
 .statistics {
 	position: relative;
@@ -203,17 +229,23 @@
 .statistic_text_box {
 	position: absolute;
 	height: 150px;
-	width: 15%;
+	width: 30%;
 	margin-left: 55%;
 	margin-top: 7%;
 	border: 1px black solid;
 }
-/* <--------------------------------------SECTION PRODUCTS---------------------------------------> */
+.statistic_text_box > p {
+	display: inline-block;
+	text-transform: uppercase;
+	color: #fff;
+}
+/* <-------SECTION PRODUCTS-----------> */
 .products {
 	position: relative;
 	height: 730px;
 	width: 100%;
 	background-color: #fff;
+	text-align: center;
 }
 
 .products_box_left {
@@ -221,17 +253,24 @@
 	height: 370px;
 	width: 25%;
 	border: 1px black solid;
-	margin-left: 20%;
-	margin-top: 15%;
+	margin-top: 5%;
 }
 .products_box_right {
 	display: inline-block;
 	height: 370px;
 	width: 25%;
 	border: 1px red solid;
-	margin-top: 15%;
+	margin-top: 5%;
+	background: #d0d0d0;
 }
-/* <--------------------------------------SECTION NEWS---------------------------------------> */
+.products_pagination {
+	margin: 0;
+	padding: 0;
+}
+.products_pagination > li {
+	display: inline;
+}
+/* <---------SECTION NEWS----------> */
 .news {
 	position: relative;
 	height: 900px;
@@ -250,13 +289,39 @@
 .news_box_right {
 	float: left;
 	height: 630px;
-	width: 35% ;
+	width: 40%;
 	border: 1px black solid;
 	margin-left: 5%;
 	margin-top: 5%;
 }
+.news_preview_1, 
+.news_preview_2 {
+	height: 320px;
+	width: 47%;
+	float: left;
+	border: 1px black solid;
+}
+.news_preview_2 {
+	margin-left: 5%;
+}
+.preview_1_photo, 
+.preview_2_photo {
+	height: 207px;
+	width: 100%;
+	background: #d0d0d0;
+}
+.news_table {
+	width: 100%;
+	border: 1px black solid;
+}
+.news_table  td {
+	border: 1px black solid;
+}
 
-/* <--------------------------------------SECTION SUPPORT---------------------------------------> */
+
+
+
+/* <----------SECTION SUPPORT-------> */
 .support {
 	position: relative;
 	height: 570px;
