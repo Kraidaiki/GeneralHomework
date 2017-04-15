@@ -1,3 +1,9 @@
+@font-face {
+	font-family: 'Roboto Light';
+	src: url('../fonts/Roboto Light.ttf');
+	font-weight: normal;
+	font-style: normal;
+}
 /* <----------------------------------------------HEADER---------------------------------------> */
 .header {					/*общий стиль хидер*/
 	position: relative;
@@ -155,18 +161,19 @@
 	background-color: #fff;
 }
 .box_left {
-	width: 32%;
+	width: 28%;
 	height: 295px;
 	float: left;
-	margin-left: 15%;
+	margin-left: 19%;
 	margin-top: 10%;
 	border: 1px red solid;
 }
 .box_right {
-	width: 38%;
+	width: 28%;
 	height: 295px;
 	float: left;
 	margin-top: 10%;
+	margin-left: 5%;
 	border: 1px green solid;
 	background: #d0d0d0;
 }
@@ -177,26 +184,41 @@
 	margin-left: 30%;
 	margin-top: 5%;
 	border: 1px black solid;
+	text-align: center;
 }
 .box_left_text_1 {
 	color: #777777;
 	font-size: 14px;
 	text-transform: uppercase;
+	margin: 5px 0 5px 0;
+	font-family: 'Roboto Light', arial;
 }
 .box_left_text_2 {
 	font-size: 35px;
+	margin: 5px 0 5px 0;
+	font-family: 'Roboto Light', arial;
 }
 .box_left_text_3 {
 	color: #777777;
 	font-size: 18px;
+	font-family: 'Roboto Light', arial;
 }
 .box_left_text_4 {
 	color: #777777;
 	font-size: 14px;
 }
+.box_bot_text_1, 
+.box_bot_text_3 {
+	text-transform: uppercase;
+	font-size: 13px;
+}
+.box_bot_text_2 {
+	color: #777777;
+	font-size: 20px;
+}
 .btn_main {
 	height: 50px;
-	width: 30%;
+	width: 35%;
 	background: #fed45c;
 	border-radius: 25px;
 }
@@ -206,17 +228,20 @@
 	width: 100%;
 	background-color: #fcfcfc;
 	border: 1px black solid;
+	text-align: center;
 }
 .info_box_1, 
 .info_box_2, 
 .info_box_3  {
-	height: 180px;
-	width: 30%;
-	float: left;
+	display: inline-block;
+	width: 17%;
 	margin-top: 4%;
 	margin-left: 2%;
 	border: 1px black solid; 
+	text-align: center;
+	font-size: 14px;
 }
+
 
 /* <--------------------------------------SECTION STATISTIC---------------------------------------> */
 .statistics {
@@ -241,7 +266,6 @@
 }
 /* <-------SECTION PRODUCTS-----------> */
 .products {
-	position: relative;
 	height: 730px;
 	width: 100%;
 	background-color: #fff;
@@ -323,37 +347,51 @@
 
 /* <----------SECTION SUPPORT-------> */
 .support {
-	position: relative;
 	height: 570px;
 	width: 100%;
 	background-color: #fff;
+	text-align: center;
 }
-
 .support_box_1, 
 .support_box_2, 
 .support_box_3 {
-	height: 180px;
-	width: 30%;
-	float: left;
-	margin-top: 4%;
-	margin-left: 2%;
+	display: inline-block;
+	width: 13%;
+	margin-top: 2%;
+	margin-left: 7%;
 	border: 1px black solid; 
 }
-
-
+.support_btn_1,
+.support_btn_2, 
+.support_btn_3 {
+	width: 66%;
+	height: 43px;
+	border: 1px #e3e3e3 solid;
+	border-radius: 43px;
+	text-transform: uppercase;
+}
+.support_btn_1, 
+.support_btn_3 {
+	background: #fff;
+}
+.support_btn_2 {
+	background: #fed45c;
+}
 
 /* <--------------------------------------FOOTER---------------------------------------> */
 .footer {
-	position: relative;
 	height: 287px;
 	width: 100%;
 	background: #303d59;
 	background-image: url(../img/BG-Shapes_02.jpg);
+	text-align: center;
+}
+.footer  p {
+	font-size: 14px;
+	color: #fff;
 }
 .socials_box {
-	position: absolute;
-	height: 20px;
-	width: 15%;
+	display: inline-block;
 	margin-top: 4%;
-	margin-left: 45%;
+	margin-left: 7px;
 }
