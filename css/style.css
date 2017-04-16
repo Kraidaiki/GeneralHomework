@@ -4,7 +4,7 @@
 	font-weight: normal;
 	font-style: normal;
 }
-/* <----------------------------------------------HEADER---------------------------------------> */
+/* <------------HEADER-------------> */
 .header {					/*общий стиль хидер*/
 	position: relative;
 	height: 920px;
@@ -154,7 +154,7 @@
 	height: 100%;
 }
 
-/* <--------------------------------------SECTION MAIN---------------------------------------> */
+/* <-----------SECTION MAIN-------------> */
 .main {
 	height: 966px;
 	width: 100%;
@@ -222,7 +222,7 @@
 	background: #fed45c;
 	border-radius: 25px;
 }
-/* <--------------------------------------SECTION INFO---------------------------------------> */
+/* <--------------SECTION INFO-----------> */
 .info {
 	height: 365px;
 	width: 100%;
@@ -243,27 +243,56 @@
 }
 
 
-/* <--------------------------------------SECTION STATISTIC---------------------------------------> */
+/* <-----------SECTION STATISTIC--------> */
+
 .statistics {
-	position: relative;
 	height: 419px;
 	width: 100%;
 	background: linear-gradient(to top, #b478b6, #f0689e );
-	background-image: url(../img/BG_img2_02.jpg);
+	background-image: url(../img/BG-Image2.jpg);
+}
+.statistics  img {
+	display: inline-block;
+	float: left;
+}
+.phone_pic {
+	margin-left: 19%;
+	margin-top: 14%;
+}
+.Mockup_pic {
+	margin-left: -2%;
+	margin-top: 3%;	
+}
+.mouse_pic {
+	margin-top: 14%;		
 }
 .statistic_text_box {
-	position: absolute;
-	height: 150px;
+	float: left;
 	width: 30%;
-	margin-left: 55%;
-	margin-top: 7%;
+	margin-top: 5%;
+	margin-left: 3%;
 	border: 1px black solid;
 }
 .statistic_text_box > p {
 	display: inline-block;
+	font-size: 13px;
 	text-transform: uppercase;
 	color: #fff;
 }
+.statistic_text_box p:nth-child(3), 
+.statistic_text_box p:nth-child(4) {
+	margin-left: 10%;
+}
+
+.statistic_text_box > h2 {
+	margin: 0 0 5% 0;
+	font-size: 35px;
+	color: #fff;
+}
+.text {
+	font-size: 38px;
+}
+
 /* <-------SECTION PRODUCTS-----------> */
 .products {
 	height: 730px;
