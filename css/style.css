@@ -6,6 +6,19 @@
 }
 body {
 	color: #929292;
+	max-width: 1920px;
+	min-width: 1200px;
+	margin: 0 auto;
+}
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.clearfix::before {
+  content: "";
+  display: table;
+  clear: both;
 }
 /* <------------HEADER-------------> */
 .header {					/*общий стиль хидер*/
@@ -259,9 +272,9 @@ body {
 	width: 100%;
 	background: linear-gradient(to top, #b478b6, #f0689e );
 	background-image: url(../img/BG-Image2.jpg);
+	background-size: 100% 100%;
 }
 .statistics  img {
-	display: inline-block;
 	float: left;
 }
 .phone_pic {
@@ -308,19 +321,28 @@ body {
 	background-color: #fff;
 	text-align: center;
 }
-.products > h2 {
-	color: #222222;
-	font-size: 35px;
-}
-.products h3 {
-	font-size: 16px;
-}
 .products_box_left {
 	height: 370px;
 	width: 32%;
 	margin-top: 5%;
 	margin-left: 15%;
 	float: left;
+}
+.products_box_right {
+	height: 370px;
+	width: 28%;
+	margin-top: 5%;
+	margin-left: 5%;
+	background: #d0d0d0;
+	box-shadow: 0px 0px 10px 5px #d0d0d0;
+	float: left;
+}
+.products > h2 {
+	color: #222222;
+	font-size: 35px;
+}
+.products h3 {
+	font-size: 16px;
 }
 .products_box_left > h2 {
 	text-align: left;
@@ -365,15 +387,6 @@ body {
 	background: #fed45c;
 	border: 0;
 }
-.products_box_right {
-	height: 370px;
-	width: 28%;
-	float: left;
-	margin-top: 5%;
-	margin-left: 4%;
-	background: #d0d0d0;
-	box-shadow: 0px 0px 10px 5px #d0d0d0;
-}
 .products_box_right_slidebar {
 	width: 100%;
 	height: 30px;
@@ -401,7 +414,6 @@ body {
 }
 .news_box_left {
 	float: left;
-	height: 520px;
 	width: 15% ;
 	margin-left: 20%;
 	margin-top: 5%;
@@ -409,30 +421,31 @@ body {
 	background: #fff;
 	box-shadow: 0px 0px 10px 5px #d0d0d0;
 }
+.news_box_right {
+	float: left;
+	width: 40%;
+	margin-left: 5%;
+	margin-top: 5%;
+}
 .news_box_left h2 {
 	color: #222;
 }
 .news_box_left input {
-	width: 100%;
-	height: 10%;
+	width: 90%;
 	margin-top: 20px;
+	padding: 10px;
 	border: 1px #e8e8e8 solid;
 	border-radius: 8px;
 }
 .news_box_left button {
-	width: 100%;
+	width: 103%;
 	height: 10%;
 	background: #fed45c;
 	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 10px;
 	border: 0;
 	border-radius: 40px;
-}
-.news_box_right {
-	float: left;
-	height: 630px;
-	width: 40%;
-	margin-left: 5%;
-	margin-top: 5%;
 }
 .news_box_right h2 {
 	font-size: 30px;
@@ -458,6 +471,9 @@ body {
 }
 .news_time {
 	color: #666;
+}
+.news_desc {
+	float: left;
 }
 .news_desc div {
 	height: 40px;
