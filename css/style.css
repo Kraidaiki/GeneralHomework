@@ -94,55 +94,22 @@ body {
 	text-align: center;
 	color: #444444;
 }
-.logo_box_1 {				/*1 контейнер для логотипов*/ 
+.container_logo {
 	position: absolute;
-	left: 475px;
-	top: 860px;
-	height: 145px;
-	width: 150px;
-	background: #fff;
-	box-shadow: 0px 0px 10px 1px #d0d0d0;
+	margin-top: -4%;
+	margin-left: 25%;
+	width: 48%;
 	z-index: 1;
 }
-.logo_box_2 {				/*2 контейнер для логотипов*/
-	position: absolute;
-	left: 675px;
-	top: 860px;
-	height: 145px;
-	width: 150px;
+.logo_box_1, 
+.logo_box_2, 
+.logo_box_3, 
+.logo_box_4, 
+.logo_box_5 {
+	display: inline-block;
+	margin-left: 20px;
 	background: #fff;
 	box-shadow: 0px 0px 10px 1px #d0d0d0;
-	z-index: 1;
-}
-.logo_box_3 {				/*3 контейнер для логотипов*/
-	position: absolute;
-	right: 865px;
-	top: 860px;
-	height: 145px;
-	width: 150px;
-	background: #fff;
-	box-shadow: 0px 0px 10px 1px #d0d0d0;
-	z-index: 1;
-}
-.logo_box_4 {				/*4 контейнер для логотипов*/
-	position: absolute;
-	right: 675px;
-	top: 860px;
-	height: 145px;
-	width: 150px;
-	background: #fff;
-	box-shadow: 0px 0px 10px 1px #d0d0d0;
-	z-index: 1;
-}
-.logo_box_5 {				/*5 контейнер для логотипов*/
-	position: absolute;
-	right: 475px;
-	top: 860px;
-	height: 145px;
-	width: 150px;
-	background: #fff;
-	box-shadow: 0px 0px 10px 1px #d0d0d0;
-	z-index: 1;
 }
 .logo_box_1 > a {				/*растяжение ссылки по величине контейнера для логотипа*/
 	display: block;
@@ -172,6 +139,7 @@ body {
 
 /* <-----------SECTION MAIN-------------> */
 .main {
+	position: relative;
 	height: 966px;
 	width: 100%;
 	background-color: #fff;
