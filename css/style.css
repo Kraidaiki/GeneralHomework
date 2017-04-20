@@ -1,3 +1,7 @@
+/** {
+	margin: 0;
+	padding: 0;
+}*/
 @font-face {
 	font-family: 'Roboto Light';
 	src: url('../fonts/Roboto Light.ttf');
@@ -27,6 +31,7 @@ body {
 	width: 100%;
 	background: linear-gradient(to top, #b478b6, #f0689e );
 	background-image: url(../img/BG-Image1.jpg);
+	text-align: center;
 }
 .text_logo {   /*стиль текстового логотипа*/
 	position: absolute;
@@ -50,27 +55,22 @@ body {
 	color: #fff;
 }
 .title_text {  /*стиль первого текстового блока*/
-	position: absolute;
-	top: 275px;
-	left: 580px;
+	padding-top: 15%;
+	margin: 0;
 	font-size: 45px;
 	color: #fff;
 }
 .title_text2 {	/*стиль второго текстового блока*/
-	position: absolute;
-	position: absolute;
-	top: 350px;
-	left: 670px;
+	margin-top: 20px;
 	font-size: 20px;
 	color: #fff;
 }
 .bth_subscribe {		/*стиль для кнопки подписки*/
-	position: absolute;
-	top: 400px;
-	left: 820px;
+	display: inline-block;
 	height: 60px;
 	width: 276px;
 	background-color: #fed45c;
+	border: none;
 	border-radius: 30px 30px 30px 30px;
 }
 .bth_subscribe > a {	/*стиль ссылки кнопки*/
