@@ -5,11 +5,12 @@
 	<title>OlinA GeneralHomeWork</title>
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/sprites.css">
+	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="fonts/Roboto Light.ttf">
 </head>
 <body>
 	<!-------------------------------------HEADER---------------------------------->
-	<header class="header">
+	<header class="header clearfix">
 		<p class="text_logo">Uisumo</p>
 		<nav class="nav">
 			<a href="">About Us</a>
@@ -32,32 +33,22 @@
 	</header>
 	<main>
 		<!-----------------------------------SECTION MAIN------------------------------------>
-		<section class="main">
+		<section class="main clearfix">
 			<div class="container_logo">
-				<div class="logo_box_1 ">
-					<a href="">
-						<img src="img/Laravel_ico.jpg" alt="Laravel logo">
-					</a>
+				<div class="logo_box_1 Laravel_ico">
+					<a href=""></a>
 				</div>
-				<div class="logo_box_2">
-					<a href="">
-						<img src="img/WordPress_ico.jpg" alt="WordPress logo">
-					</a>
+				<div class="logo_box_2 WordPress_ico">
+					<a href=""></a>
 				</div>
-				<div class="logo_box_3">
-					<a href="">
-						<img src="img/AngularJS_ico.jpg" alt="AngularJS logo">
-					</a>
+				<div class="logo_box_3 AngularJS_ico">
+					<a href=""></a>
 				</div>
-				<div class="logo_box_4">
-					<a href="">
-						<img src="img/NodeJS_ico.jpg" alt="NodeJS logo">
-					</a>
+				<div class="logo_box_4 NodeJS_ico">
+					<a href=""></a>
 				</div>
-				<div class="logo_box_5">
-					<a href="">
-						<img src="img/Ionic_ico.jpg" alt="Ionic logo">
-					</a>
+				<div class="logo_box_5 Ionic_ico">
+					<a href=""></a>
 				</div>
 			</div>
 			<div class="box_left">
@@ -67,45 +58,44 @@
 				<p class="box_left_text_4">What do all consultants need? In short, trust. This is achieved with proffesional presentation and the ability to communicate clearly with existing and potentional clients. Whether you are an accountant.</p>
 				<button class="btn_main">Discover More</button>
 			</div>
-			<div class="box_right">
+			<div class="box_right bg-gray-1">
 
 			</div>
 			<div class="box_bot">
-				<img src="img/sms.png" alt="">
+				
 				<p class="box_bot_text_1">why over 50k people choose us</p>
 				<p class="box_bot_text_2"> "What do all consultants need? In short,trust. This is archieved with proffessional presentation and the ability to communicate clearly with existing and potentional trendy worldwide clients way of tired now &amp; all."</p>
 				<p class="box_bot_text_3"><span><b>Tim Anderson</b></span> (Director)</p>
 			</div>
 		</section>
 		<!-----------------------------------SECTION INFO------------------------------------>
-		<section class="info">
+		<section class="info clearfix">
 				<div class="info_box_1">
-					<img src="img/lamp_ico.png" alt="">
 					<h3>Pixel Perfect Design</h3>
 					<p>This is achieved with professional presentation and the ability communicate clearly with existing and potentional clients.</p>
 				</div>
 				<div class="info_box_2">
-					<img src="img/seo_ico.png" alt="">
 					<h3>SEO Optimized</h3>
 					<p>This is achieved with professional presentation and the ability communicate clearly with existing and potentional clients.</p>
 				</div>
 				<div class="info_box_3">
-					<img src="img/headphones_ico.png" alt="">
 					<h3>Dedicated Support</h3>
 					<p>This is achieved with professional presentation and the ability communicate clearly with existing and potentional clients.</p>
 				</div>
 		</section>
 		<!-----------------------------------SECTION STATISTIC------------------------------------>
-		<section class="statistics">
-			<img src="img/phone.png" alt="" class="phone_pic">
-			<img src="img/Mockup.png" alt="" class="Mockup_pic">
-			<img src="img/mouse.png" alt="" class="mouse_pic">
-			<div class="statistic_text_box">
-				<h2>Some Statistical Facts</h2>
-				<p><span class="text">25k</span><br>happy customers</p>
-				<p><span class="text">9083</span><br>Ticket Solved</p>
-				<p><span class="text">9/10</span><br>Average Ratings</p>
-			</div>
+		<section class="statistics clearfix">
+				<div class="img_conteiner">
+					<div class="img_container_box phone"></div>
+					<div class="img_container_box Mockup"></div>
+					<div class="img_container_box mouse"></div>
+				</div>
+				<div class="statistic_text_box">
+					<h2>Some Statistical Facts</h2>
+					<p><span class="text">25k</span><br>happy customers</p>
+					<p><span class="text">9083</span><br>Ticket Solved</p>
+					<p><span class="text">9/10</span><br>Average Ratings</p>
+				</div>
 		</section>
 		<!-----------------------------------SECTION PRODUCTS------------------------------------>
 		<section class="products clearfix">
@@ -125,7 +115,7 @@
 				<button class="poducts_btn_1">Demo</button>
 				<button class="poducts_btn_2">Buy Theme</button>
 			</div>
-			<div class="products_box_right">
+			<div class="products_box_right bg-gray-2">
 				<div class="products_box_right_slidebar">
 					<a href=""></a>
 					<a href=""></a>
@@ -134,7 +124,7 @@
 			</div>
 		</section>
 		<!-----------------------------------SECTION NEWS------------------------------------>
-		<section class="news">
+		<section class="news clearfix">
 			<div class="news_box_left">
 				<h2>Request Call Back</h2>
 				<p>What do all consultants need?In short,trust. This is archieved with proffessional presentation and the ability to communicate.</p>
@@ -149,7 +139,7 @@
 				<h2>Company News</h2>
 				<div class="news_preview_1">
 					<div class="preview_1_photo">
-
+						
 					</div>
 					<div class="preview_1_news">
 						<span class="news_time">
@@ -187,23 +177,20 @@
 			</div>
 		</section>
 		<!-----------------------------------SECTION SUPPORT------------------------------------>
-		<section class="support">
+		<section class="support clearfix">
 				<h2>Help &amp; Support</h2>
 				<p>Find answers to all of your questions here.</p>
 				<div class="support_box_1">
-					<img src="img/support_ico.png" alt="">
 					<h2>Support</h2>
 					<p>Contact our experts and solve your problems immediately </p>
 					<button class="support_btn_1">Forum</button>
 				</div>
 				<div class="support_box_2">
-					<img src="img/document_ico.png" alt="">
 					<h2>Documentation</h2>
 					<p>Learn how to use Theme from our Users Guide</p>
 					<button class="support_btn_2">Learn More</button>
 				</div>
 				<div class="support_box_3">
-					<img src="img/video_ico.png" alt="">
 					<h2>Tutorials</h2>
 					<p>Learn how to use Products with video tutorials</p>
 					<button class="support_btn_3">Watch Now</button>
@@ -211,20 +198,20 @@
 		</section>
 	</main>
 	<!-----------------------------------FOOTER------------------------------------>
-	<footer class="footer">
-		<div class="socials_box">
-			<a href="">
-				<img src="img/Facebook_ico.png" alt="Facebook logotip">
-			</a>
-			<a href="">
-				<img src="img/Twitter_ico.png" alt="Twitter logotip">
-			</a>
-			<a href="">
-				<img src="img/linkedin_ico.png" alt="linkedin logotip">
-			</a>
-			<a href="">
-				<img src="img/Google_ico.png" alt="Google logotip">
-			</a>
+	<footer class="footer clearfix">
+		<div class="container_socials">
+			<div class="container_socials_box Facebook_ico">
+				<a href=""></a>
+			</div>
+			<div class="container_socials_box Twitter_ico">
+				<a href=""></a>
+			</div>
+			<div class="container_socials_box linkedin_ico">
+				<a href=""></a>
+			</div>
+			<div class="container_socials_box Google_ico">
+				<a href=""></a>
+			</div>
 			<p>© 2017 UISUMO Web Solutions. All Rights Reserved.</p>
 		</div>
 	</footer>

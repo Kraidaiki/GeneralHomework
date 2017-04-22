@@ -1,112 +1,166 @@
-.AngularJS_ico, .lamp_ico, .seo_ico, .support_ico, .video_ico, .headphones_ico, .Ionic_ico, .Laravel_ico, .NodeJS_ico, .WordPress_ico, .Mockup, .mouse, .phone, .Navicon, .linkedin_ico, .Facebook_ico, .Google_ico, .Twitter_ico{
+.BG-Image1, .BG-Image2, .BG-Shapes_02, .bg-gray-1, .AngularJS_ico, .Ionic_ico, .Laravel_ico, .NodeJS_ico, .WordPress_ico, .comment, .Mockup, .headphones_ico, .document_ico, .lamp_ico, .seo_ico, .support_ico, .sms, .Navicon, .mouse, .phone, .video_ico, .Facebook_ico, .Google_ico, .linkedin_ico, .Twitter_ico, .bg-gray-2, .bg-gray-3{
 	background: url(../img/sprites.png) no-repeat;
 }
 
-.AngularJS_ico{
+.BG-Image1{
 	background-position: 0 0;
+	width: 1920px;
+	height: 920px;
+}
+
+.BG-Image2{
+	background-position: 0 -999px ;
+	width: 1920px;
+	height: 419px;
+}
+
+.BG-Shapes_02{
+	background-position: 0 -1512px ;
+	width: 1920px;
+	height: 287px;
+}
+
+.bg-gray-1{
+	background-position: -2015.9609375px 0;
+	width: 546px;
+	height: 320px;
+}
+
+.AngularJS_ico{
+	background-position: -2627.96875px -29.9375px ;
 	width: 150px;
 	height: 145px;
 }
 
-.lamp_ico{
-	background-position: -155px -2px ;
-	width: 40px;
-	height: 58px;
-}
-
-.seo_ico{
-	background-position: -202px 0;
-	width: 59px;
-	height: 58px;
-}
-
-.support_ico{
-	background-position: -264px 0;
-	width: 83px;
-	height: 78px;
-}
-
-.video_ico{
-	background-position: -343px 0;
-	width: 83px;
-	height: 83px;
-}
-
-.headphones_ico{
-	background-position: -422px 0;
-	width: 58px;
-	height: 51px;
-}
-
 .Ionic_ico{
-	background-position: 0 -152px ;
+	background-position: -2632.9453125px -561.9765625px ;
 	width: 150px;
 	height: 145px;
 }
 
 .Laravel_ico{
-	background-position: 0 -305px ;
+	background-position: -2627.96875px -204.9765625px ;
 	width: 150px;
 	height: 145px;
 }
 
 .NodeJS_ico{
-	background-position: 0 -458px ;
+	background-position: -2620.96875px -392.96875px ;
 	width: 150px;
 	height: 145px;
 }
 
 .WordPress_ico{
-	background-position: 0 -596px ;
+	background-position: -1986.9375px -1082.9765625px ;
 	width: 150px;
 	height: 145px;
 }
 
+.comment{
+	background-position: -1958.9453125px -1705.96875px ;
+	width: 220px;
+	height: 78px;
+}
+
 .Mockup{
-	background-position: -155px -78px ;
+	background-position: -2391px -780.9453125px ;
 	width: 433px;
 	height: 288px;
 }
 
+.headphones_ico{
+	background-position: -1984.9296875px -1533.9609375px ;
+	width: 58px;
+	height: 51px;
+}
+
+.document_ico{
+	background-position: -2084.984375px -1534.9921875px ;
+	width: 69px;
+	height: 83px;
+}
+
+.lamp_ico{
+	background-position: -1998.992px -1303.984px ;
+	width: 40px;
+	height: 78px;
+}
+
+.seo_ico{
+	background-position: -2092.984px -1304.969px ;
+	width: 59px;
+	height: 78px;
+}
+
+.support_ico{
+	background-position: -1980.984375px -1414.984375px ;
+	width: 83px;
+	height: 78px;
+}
+
+.sms{
+	background-position: -1983.9765625px -1641.96875px ;
+	width: 38px;
+	height: 33px;
+}
+
+.Navicon{
+	background-position: -2352.9862670898438px -1306.9826965332031px ;
+	width: 40px;
+	height: 40px;
+}
+
 .mouse{
-	background-position: -154px -400px ;
+	background-position: -2228.9765625px -1254.9453125px ;
 	width: 39px;
 	height: 49px;
 }
 
 .phone{
-	background-position: -200px -396px ;
+	background-position: -2183.9765625px -1085.9765625px ;
 	width: 110px;
 	height: 132px;
 }
 
-.Navicon{
-	background-position: -302px -406px ;
-	width: 40px;
-	height: 40px;
-}
-
-.linkedin_ico{
-	background-position: -355px -403px ;
-	width: 41px;
-	height: 41px;
+.video_ico{
+	background-position: -2084.96875px -1403.96875px ;
+	width: 83px;
+	height: 83px;
 }
 
 .Facebook_ico{
-	background-position: -402px -403px ;
+	background-position: -2229.969px -1341.96875px ;
 	width: 41px;
 	height: 41px;
 }
 
 .Google_ico{
-	background-position: -453px -403px ;
+	background-position: -2230.96875px -1418px ;
+	width: 41px;
+	height: 41px;
+}
+
+.linkedin_ico{
+	background-position: -2226.9765625px -1570.984375px ;
 	width: 41px;
 	height: 41px;
 }
 
 .Twitter_ico{
-	background-position: -501px -403px ;
+	background-position: -2228.9765625px -1485.984375px ;
 	width: 41px;
 	height: 41px;
+}
+
+.bg-gray-2{
+	background-position: -2013.984px -336.992px ;
+	width: 555px;
+	height: 399px;
+}
+
+.bg-gray-3{
+	background-position: -1980.984375px -817.984375px ;
+	width: 370px;
+	height: 207px;
 }
 
