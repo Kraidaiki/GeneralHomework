@@ -132,20 +132,16 @@ body {
 .box_left {
 	width: 28%;
 	float: left;
-	margin-left: 19%;
-	margin-top: 10%;
+	margin: 10% 0 0 19%;
 }
 .box_right {
 	float: left;
-	margin-top: 10%;
-	margin-left: 5%;
-	
+	margin: 10% 0 0 5%;
 }
 .box_bot {
 	float: left;
 	width: 40%;
-	margin-left: 30%;
-	margin-top: 5%;
+	margin: 5% 0 0 30%;
 	text-align: center;
 }
 .box_bot p:first-child::before{
@@ -208,6 +204,7 @@ body {
 	background-color: #fcfcfc;
 	text-align: center;
 	font-size: 0;
+	border-top: 1px solid #eee; 
 }
 .info2 {
 	height: 365px;
@@ -257,22 +254,28 @@ body {
 	width: 100%;
 	background: linear-gradient(to top, #b478b6, #f0689e );
 	background: url(../img/sprites.png) no-repeat 0 -999px;
-	
 }
 .img_conteiner {
 	position: relative;
 	float: left;
+	font-size: 0;
+	top: 14%;
+	left: 17%;
 }
 .img_container_box {
 	display: inline-block;
 }
 .statistic_text_box {
-	float: left;
+	position: relative;
+	float: right;
 	font-size: 0;
+	top: 28%;
+	right: 22%;
 }
 .statistic_text_box > div{
 	display: inline-block;
 	text-transform: uppercase;
+	margin: 0 64px 0 0;
 }
 .statistic_text_box > div > p {
 	font-size: 13px;
@@ -280,7 +283,7 @@ body {
 }
 .statistic_text_box p:nth-child(3), 
 .statistic_text_box p:nth-child(4) {
-	margin-left: 10%;
+	margin: 0 0 0 10%;
 }
 
 .statistic_text_box > h2 {
@@ -301,14 +304,11 @@ body {
 }
 .products_box_left {
 	width: 32%;
-	margin-top: 5%;
-	margin-left: 15%;
+	margin: 5% 0 0 15%;
 	float: left;
 }
 .products_box_right {
-	margin-top: 5%;
-	margin-left: 5%;
-	
+	margin: 5% 0 0 5%;
 	box-shadow: 0px 0px 10px 5px #d0d0d0;
 	float: left;
 }
@@ -346,8 +346,8 @@ body {
 .poducts_btn_2 {
 	display: block;
 	float: left;
-	height: 43px;
-	margin-top: 5%;
+	padding: 10px;
+	margin: 5% 0 0 0;
 	border-radius: 43px;
 	text-transform: uppercase;
 	cursor: pointer;
@@ -356,10 +356,17 @@ body {
 	width: 130px;
 	border: 1px #e3e3e3 solid;
 	background: #fff;
+	text-decoration: none;
+	color: #222;
+	text-align: center;
 } 
+.poducts_btn_1 > a {
+	display: block;
+	width: 100%;
+}
 .poducts_btn_2 {
 	width: 150px;
-	margin-left: 1%;
+	margin: 5% 0 0 1%;
 	background: #fed45c;
 	border: 0;
 }
@@ -376,8 +383,7 @@ body {
 	width: 15px;
 	background: #e0e0e0;
 	border-radius: 50%;
-	margin-top: 10px;
-	margin-left: 10px;
+	margin: 10px 0 0 10px;
 }
 .products_box_right_slidebar  a:hover {
 	background: red;
@@ -392,8 +398,7 @@ body {
 .news_box_left {
 	float: left;
 	width: 15% ;
-	margin-left: 20%;
-	margin-top: 5%;
+	margin: 5% 0 0 20%;
 	padding: 0 20px 0 20px;
 	background: #fff;
 	box-shadow: 0px 0px 10px 5px #d0d0d0;
@@ -401,15 +406,14 @@ body {
 .news_box_right {
 	float: left;
 	width: 57%;
-	margin-left: 5%;
-	margin-top: 5%;
+	margin: 5% 0 0 5%;
 }
 .news_box_left h2 {
 	color: #222;
 }
 .news_box_left input {
 	width: 90%;
-	margin-top: 20px;
+	margin: 20px 0 0 0;
 	padding: 10px;
 	border: 1px #e8e8e8 solid;
 	border-radius: 8px;
@@ -424,8 +428,7 @@ body {
 	width: 103%;
 	height: 10%;
 	background: #fed45c;
-	margin-top: 20px;
-	margin-bottom: 20px;
+	margin: 20px 0 20px 0;
 	padding: 12px;
 	border: 0;
 	border-radius: 40px;
