@@ -557,12 +557,17 @@ body {
 	display: block;
 	font-size: 14px;
 	color: #fff;
+	margin: 20px 0 0 0;
 }
 .container_socials {
 	margin: 0 auto;
+	font-size: 0;
 }
 .container_socials_box {
 	display: inline-block;
+	margin: 5% 20px 0 0;
+}
+.container_socials_box:last-child {
 	margin: 5% 0 0 0;
 }
 .container_socials > div > a{
