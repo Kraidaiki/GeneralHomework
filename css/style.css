@@ -53,12 +53,14 @@ body {
 	font-size: 12px;
 	text-transform: uppercase;
 	color: #fff;
+	vertical-align: top;
+	line-height: 53px;
 }
 .nav > a:last-child {
-	margin: 10px 0 10px 10px;
+	margin: 16px 0 10px 10px;
 	width: 40px;
 	height: 40px;
-	background: url(../img/sprites.png) no-repeat -2352.9862670898438px -1306.9826965332031px;
+	background: url(../img/sprites.png) no-repeat -2351.9862670898438px -1306.9826965332031px;
 }
 .title_text {  /*стиль первого текстового блока*/
 	padding-top: 15%;
