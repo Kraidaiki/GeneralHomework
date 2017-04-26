@@ -1,14 +1,11 @@
-@font-face {
-	font-family: 'Roboto Light';
-	src: url('../fonts/Roboto Light.ttf');
-	font-weight: normal;
-	font-style: normal;
-}
 body {
 	color: #929292;
 	max-width: 1920px;
 	min-width: 1200px;
 	margin: 0 auto;
+	font-family: 'RobotoLight';
+	font-weight: normal;
+	font-style: normal;
 }
 .clearfix:after {
   content: "";
@@ -48,7 +45,6 @@ body {
 .nav > a {		/*стиль для ссылок блока навигации*/
 	display: inline-block;
 	margin: 10px;
-	vertical-align: middle;
 	text-decoration: none;
 	font-size: 12px;
 	text-transform: uppercase;
@@ -299,10 +295,37 @@ body {
 
 /* <-------SECTION PRODUCTS-----------> */
 .products {
+	position: relative;
 	height: 730px;
 	width: 100%;
 	background-color: #fff;
 	text-align: center;
+}
+.control_left,
+.control_right {
+	position: absolute;
+	width: 59px;
+	height: 59px;
+	float: left;
+}
+.control_left {
+	left: 100px;
+	top: 400px;
+	background: url(../img/control_left.png);
+}
+.control_right {
+	right: 180px;
+	top: 400px;
+	background: url(../img/control_right.png);
+}
+.control_left > a,
+.control_right > a {
+	display: block;
+	height: 59px;
+	text-decoration: none;
+	font-size: 36px;
+	color: #b1b1b1;
+
 }
 .products_box_left {
 	width: 32%;
@@ -339,6 +362,10 @@ body {
 .products_pagination  a {
 	text-decoration: none;
 	color: #929292;
+}
+.products_pagination  a:first-of-type {
+	color: #ff6699;
+	text-decoration: underline;
 }
 .products_pagination  a:hover {
 	color: #ff6699;
@@ -457,6 +484,7 @@ body {
 }
 .news_desc {
 	float: left;
+	width: 800px;
 }
 .news_desc div {
 	height: 40px;
@@ -569,7 +597,7 @@ body {
 	display: inline-block;
 	margin: 5% 20px 0 0;
 }
-.container_socials_box:last-child {
+.container_socials_box:last-of-type {
 	margin: 5% 0 0 0;
 }
 .container_socials > div > a{
